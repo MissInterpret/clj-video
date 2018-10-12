@@ -1,6 +1,3 @@
-(ns clj-video.core)
-
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(ns clj-video.core
+  (:gen-class)
+  (:require [clj-video.spec.operator :as o]))

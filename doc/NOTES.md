@@ -1,5 +1,7 @@
      clj-video notes
 
+?/?/?
+
 # Desired Properties
 
   - Commands can pipeline 
@@ -139,3 +141,21 @@
   - Is there any value in using Onyx-style workflow approach to describe
     the topology of pipeline?  Is this way of expressing things at odds with
     having individual transformations be transducers?
+
+10/12/2018
+
+* Operator consumes a vector of containers outputs a vector of containers
+
+* Should operators support a protocol?  
+
+    - interceptor chains don't to positive effect
+    - Simple enough execution:  check compatibility, call op with input
+
+    + Having an implementing class allows for a simple way to support
+      dynamic loading of native-backed operations
+
+  => Yes, pass an impl as part of the op
+
+
+
+
