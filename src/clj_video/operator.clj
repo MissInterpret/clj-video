@@ -4,3 +4,6 @@
             [clj-video.spec.operator :as spec]))
 
 
+(defn make-operator [])
+
+

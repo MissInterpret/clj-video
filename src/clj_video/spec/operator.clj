@@ -2,8 +2,9 @@
   (:gen-class)
   (:require [clojure.spec.alpha :as s]))
 
-(s/def ::input (s/coll-of map?))
 (s/def ::metadata map?)
-(s/def ::impl any?)
+(s/def ::impl map?)
 
-(s/def ::operator (s/keys :req [::input ::metadata ::impl]))
+; Impl keys:  ns 
+
+(s/def ::operator (s/keys :req [::metadata ::impl]))
