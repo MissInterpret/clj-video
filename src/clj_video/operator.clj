@@ -4,6 +4,8 @@
             [clj-video.spec.operator :as spec]))
 
 
-(defn make-operator [])
+(defn create [metadata qualified-impl-fn-name])
 
+  ; returns a map with metadata implementation
+  ; that matches the operator spec
 

@@ -5,6 +5,4 @@
 (s/def ::metadata map?)
 (s/def ::impl map?)
 
-; Impl keys:  ns 
-
 (s/def ::operator (s/keys :req [::metadata ::impl]))
