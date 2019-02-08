@@ -10,12 +10,6 @@
 
 ;; Native ----------------------------------------------
 ;;
-;; Design thought
-;;
-;; All native methods will take one argument that is 
-;; a map. There can be helper functions for native
-;; manipulation of args. (say in C/C++)
-;;
 
 (defn load-class [classname init-args])
 
