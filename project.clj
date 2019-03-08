@@ -5,6 +5,7 @@
   :repl-options {:init-ns user
                  :catch clj-stacktrace.core/pst+}
   :source-paths ["src"]
+  :test-paths ["test"]
   :profiles {:uberjar {:aot :all}
              :dev {:source-paths ["dev"]
                    :dependencies [[clj-stacktrace "0.2.8"]]}})

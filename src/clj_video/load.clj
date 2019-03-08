@@ -11,7 +11,7 @@
 ;; Native ----------------------------------------------
 ;;
 
-(defn load-class [classname init-args])
+(defn class [classname init-args])
 
 (defn method [classname method-symbol instance]
   "Returns a function which will proxy to a method
